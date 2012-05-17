@@ -12,7 +12,7 @@
 puts "What is your favourite number?"
 favourite_number = gets.chomp
 favourite_number_as_integer = favourite_number.to_i 
-alternative_number = (favourite_number_as_integer) + 1
+alternative_number = (favourite_number_as_integer) + 2
 puts ""
 puts "Can I suggest that #{alternative_number} is a better number?"
 puts "Do you agree?(type yes or no)"
